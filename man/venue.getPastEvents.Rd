@@ -9,8 +9,8 @@ venue.getPastEvents(venueid, page = NA, limit = NA, key = lastkey, parse = TRUE)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{venueid}{venue ID. see \code{link{venue.search}}}
-  \item{page}{ ~~Describe \code{page} here~~ }
-  \item{limit}{ ~~Describe \code{limit} here~~}
+  \item{page}{page number}
+  \item{limit}{maximum number to return}
   \item{key}{API key, defaults to global variable lastkey}
   \item{parse}{Parse the returned XML into a list?}
 }
