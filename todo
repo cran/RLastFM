@@ -1,0 +1,21 @@
+2009-2-20: 
+Make all calls to album.getInfo first do a search to
+validate fields and pick "real" version of the album.
+
+finish album.*
+
+2009-2-21:
+added all non-auth calls. Need to figure a way to
+extract info from return values. Time to learn xpath.
+
+fix the connection (close it) to ~/.lastkey when load.key()
+is called, instead of waiting for a warning/close.
+
+2009-03-6:
+make sure to fix lat/long/artists in p.art.getevents to
+a) actually get lat/long and
+b) group artists within an event together in lists 
+   within the list element
+
+2009-03-7:
+consolidate p.*.getweeklychartlist into one function

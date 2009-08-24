@@ -1,0 +1,12 @@
+0.1-1
+	*Initial Release
+
+0.1-2
+	*Fixed Rd files to pass R CMD CHECK
+
+0.1-3
+	*Fixed tag.getTopTags to comply with API
+	*create changelog for package
+0.1-4
+	*Fixed Rd file for user.getTopTags in line with
+	  tag.getTopTags in 0.1-3

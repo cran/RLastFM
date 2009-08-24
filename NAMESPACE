@@ -1,0 +1,15 @@
+#export main functions, not internals
+#export(baseurl, lastkey)
+exportPattern(pattern="^album")
+exportPattern(pattern="^artist")
+exportPattern(pattern="^event")
+exportPattern(pattern="^geo")
+exportPattern(pattern="^group")
+exportPattern(pattern="^library")
+exportPattern(pattern="^playlist")
+exportPattern(pattern="^tag")
+exportPattern(pattern="^track")
+exportPattern(pattern="^user")
+exportPattern(pattern="^venue")
+
+#export(lastkey)
